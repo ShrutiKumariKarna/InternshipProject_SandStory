@@ -1,0 +1,66 @@
+export const WhatTheySaysDetails = [
+    {
+      id: 1,
+      image: '/assets/image/Clientprofile.png', // Make sure these exist in your /public/images folder
+      title: 'Best Memories',
+      description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+      author: 'Sara Lio',
+      company: 'ABC Corporation',
+      rating: '4.8',
+    },
+    {
+      id: 2,
+      image: '/assets/image/Clientprofile.png',
+      title: 'Best Memories',
+      description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+      author: 'Sara Lio',
+      company: 'ABC Corporation',
+      rating: '4.8',
+    },
+    {
+      id: 3,
+      image: '/assets/image/Clientprofile.png',
+      title: 'Best Memories',
+      description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+      author: 'Sara Lio',
+      company: 'ABC Corporation',
+      rating: '4.8',
+    },
+    {
+      id: 4,
+      image: '/assets/image/Clientprofile.png',
+      title: 'Best Memories',
+      description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+      author: 'Sara Lio',
+      company: 'ABC Corporation',
+      rating: '4.8',
+    },
+    {
+      id: 5,
+      image: '/assets/image/Clientprofile.png',
+      title: 'Best Memories',
+      description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+      author: 'Sara Lio',
+      company: 'ABC Corporation',
+      rating: '4.8',
+    },
+    {
+        id: 6,
+        image: '/assets/image/Clientprofile.png', // Make sure these exist in your /public/images folder
+        title: 'Best Memories',
+        description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+        author: 'Sara Lio',
+        company: 'ABC Corporation',
+        rating: '4.8',
+      },
+      {
+        id: 7,
+        image: '/assets/image/Clientprofile.png',
+        title: 'Best Memories',
+        description: 'Lorem ipsum dolor sit amet, consectetur  elit. Auctor neque sed imperdiet nibh lectus feugiat nunc.',
+        author: 'Sara Lio',
+        company: 'ABC Corporation',
+        rating: '4.8',
+      },
+  ]
+  

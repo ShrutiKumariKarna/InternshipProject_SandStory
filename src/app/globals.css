@@ -1,0 +1,132 @@
+@import url("https://fonts.cdnfonts.com/css/sofia-pro");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --font-sofia-pro: "Sofia Pro", sans-serif;
+    --font-inter: "Inter", sans-serif;
+  }
+}
+
+:root {
+  --font-sofia-pro: "Sofia Pro", sans-serif;
+}
+
+.font-sofia-pro-light { font-weight: 300; }
+.font-sofia-pro-regular { font-weight: 400; }
+.font-sofia-pro-medium { font-weight: 500; }
+.font-sofia-pro-semibold { font-weight: 600; }
+.font-sofia-pro-bold {font-weight:700;}
+.font-sofia-pro-extrabold {font-weight:800;}
+.font-sofia-pro-black {font-weight:900;}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-sofia-pro), sans-serif;
+}
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+header, footer, main {
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  right: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+/* InActive Dot */
+.swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #7874FF; 
+  /* transition: all 0.3s ease; */
+  border: none;
+}
+
+/* Active Dot */
+.swiper-pagination-bullet-active {
+  background-color: transparent; /* no fill */
+  border: 2px solid #7874FF; /* circular border */
+  width: 12px;
+  height: 12px;
+}
+
+
+/* auth page or design  */
+.divider-with-lines {
+  display: flex;
+  align-items: center;
+}
+
+.divider-with-lines::before,
+.divider-with-lines::after {
+  content: '';
+  display: block;
+  width: 165.5px;
+  height: 1.5px;
+  border-top: 2px solid #CBCAD7;
+  opacity: 0.8;
+}
+
+.divider-with-lines::before {
+  margin-right: 20px;
+}
+
+.divider-with-lines::after {
+  margin-left: 20px;
+}
+
+/* Auth slider */
+.signup-swiper-pagination .swiper-pagination-bullet {
+  background-color: #fff;
+  width: 8px;
+  height: 8px;
+  border:1px solid #D1CBF7;
+  border-radius: 100%;
+}
+
+.signup-swiper-pagination .swiper-pagination-bullet-active {
+  background-color: transparent; /* no fill */
+  border: 3px solid #FFFFFF; /* circular border */
+  width: 14px;
+  height: 14px;
+}
